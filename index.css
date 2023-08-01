@@ -1,0 +1,70 @@
+body{
+    background-image: url("images/gold.jpg");
+    background-repeat: no-repeat;
+   background-color:rgba(31, 28, 28, 0.109);
+    background-attachment:fixed;
+    background-size:600px;
+    background-repeat: round;    
+}
+h1.title{
+color:white;
+
+text-shadow:3px 3px 4px black;
+font-family: 'Anton', sans-serif;
+background-color: blue;
+text-align:center;
+padding:10px;
+}
+
+.login{
+  background:white;
+  height:230px;
+  width:250px;
+  position:fixed;
+  top:200px;
+  left:520px;
+  box-shadow: 10px 10px 10px black;
+  border-radius: 3px;
+}
+
+.login .enter{
+    margin-left:40px;
+    margin-top:15px;
+    border-radius: 5px;
+    border:1px solid gray;
+   
+}
+.login  h1{
+    text-align:center;
+    font-size: 20px;
+    color:gray;
+    
+   
+
+}
+.login .enter:hover{
+    border:1px solid black;
+    box-shadow: 1px 1px 4px black;
+  
+}
+.login .button{
+    background-color:lightgreen;
+    width:50%;
+    text-align: center;
+    margin-left:60px;
+    margin-top:30px;
+    box-shadow: none;
+  
+    border-radius: 10px;
+    transition:transform 2s;
+    color:black;
+    font-variant: small-caps;
+
+}
+.login .button:hover{
+   
+
+
+ border-radius: 10px;
+ transform: scale(1.2);
+}

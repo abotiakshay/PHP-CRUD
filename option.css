@@ -1,0 +1,74 @@
+h1.title{
+    color:white;
+    
+    text-shadow:3px 3px 4px black;
+    font-family: 'Anton', sans-serif;
+    background-color: blue;
+    text-align:center;
+    padding:10px;
+    }
+    a{
+        height: 100px;
+        width:100%;
+        top:50px;
+        position: relative;
+        background-color :#4CAF50;;
+        margin-top:40px;
+        border-radius: 30px;
+        color:white;
+        text-shadow: 3px 3px 2px black;
+        text-align:center;
+        font-size: 60px;
+        font-family: 'Sansita Swashed', cursive;
+        box-shadow: 5px 5px 7px black;
+        display:block;
+       
+   
+    }
+    .kajal{
+animation-name: kajal;
+animation-duration: 1s;
+
+
+    }
+    .kajal:hover{
+        border:3px solid red;
+        cursor:pointer;
+       
+       background-repeat: no-repeat;
+       background-size: 100px;
+       background-position: left;
+       background-color: #3e8e41;
+    
+     
+    }
+    .anita:hover{
+        border:3px solid red;
+        cursor: pointer;
+    
+        background-size: 100px;
+        background-repeat: no-repeat;
+        background-position: left;
+        background-color: #3e8e41;
+    
+    }
+    .anita{
+animation-name:anita;
+animation-duration: 1.5s;
+
+
+
+    }
+    @keyframes kajal{
+        0%{width:0%;}
+       
+        50%{width:50%;}
+        100%{width:100%;}
+    }
+    @keyframes anita{
+        0%{width:0%;}
+      
+        50%{width:50%;}
+        100%{width:100%;}
+    }
+   
